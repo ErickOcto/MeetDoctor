@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class ConfigPayment extends Model
 {
     use HasFactory;
+
+    protected $fillable = [
+        'fee',
+        'vat'
+    ];
 }
